@@ -105,7 +105,7 @@
     align-items: center;
     position: relative;
     overflow: hidden;
-    padding: 6rem 4rem 0;
+    padding: 6rem 4rem 8rem;
   }
 
   .hero-bg {
@@ -295,12 +295,9 @@
   }
 
   .hero-stats {
-    position: absolute;
-    bottom: 3rem;
-    left: 4rem;
     display: flex;
     gap: 3rem;
-    z-index: 2;
+    margin-top: 3rem;
     animation: fadeUp 1.4s 0.3s ease forwards;
     opacity: 0;
   }
@@ -1129,6 +1126,20 @@
     <h1 class="hero-title">Forged for<br><span class="gold">Strength.</span><br>Built on<br>Protein.</h1>
     <p class="hero-sub">High-protein cheese crisps and premium jerky for serious fuel.</p>
     <a href="#products" class="btn-primary"><span>Shop Now</span></a>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">20g</div>
+        <div class="stat-label">Protein Per Pack</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">2g</div>
+        <div class="stat-label">Net Carbs</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Real Ingredients</div>
+      </div>
+    </div>
   </div>
   <div class="hero-visual">
     <div class="hero-plate">
@@ -1140,20 +1151,6 @@
           <span class="sub-mark">Forge Snacks</span>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="hero-stats">
-    <div class="stat-item">
-      <div class="stat-num">20g</div>
-      <div class="stat-label">Protein Per Pack</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-num">2g</div>
-      <div class="stat-label">Net Carbs</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-num">100%</div>
-      <div class="stat-label">Real Ingredients</div>
     </div>
   </div>
 </section>
